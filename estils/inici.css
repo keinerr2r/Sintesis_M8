@@ -1,0 +1,145 @@
+#logo {
+
+    width: 125px;
+    position: absolute;
+    right: 10px;
+    bottom: 900px;
+}
+
+ul {
+    list-style: none;
+    background-color: #333;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+
+}
+
+
+li {
+    float: left;
+
+
+}
+
+
+li a,
+.opdesplegable {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.contigut-desplegable {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 160px;
+    box-shadow: 0px 8px 16px 0pc rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+li a:hover,
+opdesplegable:hover {
+    background-color: red;
+}
+
+.contigut-desplegable a:hover {
+    background-color: red;
+}
+
+.menu:hover .contigut-desplegable {
+    display: block;
+}
+
+.contigut-desplegable a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.actual{
+    background-color: red;
+}
+
+
+section {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.producto {
+    width: 300px;
+    font-family: sans-serif;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-grid;
+}
+
+.nom {
+    font-weight: bold;
+    text-align: center;
+    font-size: 5;
+    
+}
+
+.genero {
+   text-align: center;
+    color: darkgrey;
+    font-size: 3;
+}
+
+.imagen{
+    width: 300px;
+    height: 200px;
+}
+
+footer {
+    background-color: rgba(120, 120, 120, .5);
+    line-height: 2;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+}
+
+p.rights{
+    text-align: center;
+    color: black;
+}
+
+p.rights a{
+    color: #248fc1;
+    text-decoration: none;
+    
+}
+
+p.rights a:hover{
+    text-decoration: underline;
+}
+
+p.redes{
+    text-align: center;
+    color: black;
+}
+
+p.redes a{
+    color: #248fc1;
+    text-decoration: none;
+}
+
+p.redes a:hover{
+    color: darkblue;
+    text-decoration: none;
+}
+
